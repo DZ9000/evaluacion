@@ -1,0 +1,356 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(background.jpg) #000;
+}
+
+h1 {
+    background-color: #A0CEE2;
+    height: 60px;
+    margin: 20px;
+    margin-left: 90px;
+    margin-right: 260px;
+    color: rgb(0, 0, 0); 
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tabla1 {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tabla2 {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: -50px;
+}
+
+.tabla3 {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -1px;
+}
+
+.text1 {
+    background-color: rgb(255, 255, 255);
+    width: 140px; 
+    height: 80px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 30px;
+    margin-top: 5px;
+    padding-top: 10px;
+    display: inline-block;
+    
+}
+
+.text2 {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text3 {
+    background-color: rgb(255, 255, 255);
+    width: 140px; 
+    height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text4 {
+    background-color: rgb(209, 192, 41);
+    font-size: 35px;
+    width: 100px;
+    height: 70px;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.text5 {
+    background-color: rgb(209, 192, 41);
+    font-size: 25px;
+    width: 530px;
+    height: 70px;
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text6 {
+    background-color: rgb(209, 192, 41);
+    font-size: 35px;
+    width: 100px;
+    height: 70px;
+    margin-left: -10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.text7 {
+    background-color: rgb(255, 255, 255);
+    width: 100px; 
+    height: 80px;
+    color: rgb(0, 0, 0);
+    margin-left: 90px;
+    margin-right: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text8 {
+    background-color: rgb(255, 255, 255);
+    width: 100px; 
+    height: 80px;
+    margin-right: 400px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text9 {
+    background-color: rgb(255, 255, 255);
+    width: 100px; 
+    height: 80px;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.text10 {
+    background-color: rgb(255, 255, 255);
+    width: 100px; 
+    height: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: inline-block;
+}
+
+.text11 {
+    background-color: rgb(179, 179, 179);
+    margin: 20px;
+    margin-right: 0px;
+    color: rgb(0, 0, 0); 
+    height: 80px;
+    margin-left: 90px;
+    margin-right: 290px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.arrow {
+    width: 2px;
+    height: 5px;
+    background-color: #000;
+    position: relative;
+    margin-left: 120px;
+    transform: rotate(40deg);
+    padding-top: 50px;
+    padding-bottom: -20px;
+    padding-bottom: -50px;
+    margin-top: -px;
+}
+
+.arrow:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 5px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
+
+.arrow:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 2px;
+}
+
+.arrow:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
+
+.arrow2 {
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    margin-left: 195px;
+    transform: rotate(-15deg);
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.arrow2:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 5px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
+
+.arrow2:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 2px;
+}
+
+.arrow2:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
+
+.arrow3 {
+    width: 2px;
+    height: 8px;
+    background-color: #000;
+    position: relative;
+    margin-left: 790px;
+    transform: rotate(30deg);
+    padding-top: 40px;
+    margin-top: -50px;
+    margin-bottom: -5px;
+    
+}
+
+.arrow3:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 5px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -40px;
+}
+
+.arrow3:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 2px;
+}
+
+.arrow3:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -40px;
+}
+
+.arrow4 {
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    margin-left: 880px;
+    transform: rotate(-40deg);
+    padding-top: 50px;
+    margin-top: -45px;
+}
+
+.arrow4:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 5px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
+
+.arrow4:after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 2px;
+}
+
+.arrow4:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background-color: #000;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 2px;
+    margin-top: -50px;
+}
