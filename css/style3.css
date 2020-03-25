@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
 }
 
 .contenedor {
-    background: #41d12e;
+    background: #44FD7B;
     width: 44.8%;
     margin-left: 20%;
     margin-top: 9.2%;
@@ -33,7 +33,10 @@ body {
 }
 
 h1 {
-    background-color: #A0CEE2;
+    background-color: #BAEDFE;
+    border: solid;
+    border-width: thin;
+    border-color: #4DB89C;
     font-size: 1.76em;
     line-height : 100%;
     width: 92.1%;
@@ -116,7 +119,10 @@ h1 {
 }
 
 .text4 {
-    background-color: rgb(209, 192, 41);
+    background-color: #FDF004;
+    border: solid;
+    border-width: thin;
+    border-color: #55B73E;
     font-size: 1.6em;
     width: 11%;
     height: 5.83%;
@@ -130,7 +136,10 @@ h1 {
 }
 
 .text5 {
-    background-color: rgb(209, 192, 41);
+    background-color: #FDF004;
+    border: solid;
+    border-width: thin;
+    border-color: #55B73E;
     font-size: 1.57em;
     width: 53%;
     height: 5.83%;
@@ -145,7 +154,10 @@ h1 {
 }
 
 .text6 {
-    background-color: rgb(209, 192, 41);
+   background-color: #FDF004;
+    border: solid;
+    border-width: thin;
+    border-color: #55B73E;
     font-size: 1.50em;
     width: 11.5%;
     height: 5.83%;
@@ -204,7 +216,10 @@ h1 {
 }
 
 .text11 {
-    background-color: rgb(179, 179, 179);
+    background-color: #FDCBFE;
+    border: solid;
+    border-width: thin;
+    border-color: #82A39C;
     font-size: 1.21em;
     width: 90%; 
     height: 6.66%;
